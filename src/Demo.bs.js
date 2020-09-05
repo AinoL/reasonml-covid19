@@ -44,9 +44,21 @@ var myTree = /* Node */{
 
 console.log(sum(myTree));
 
-var sayHello = "Hello";
+function helloWorld(param) {
+  console.log("Hello world!");
+  
+}
+
+function convertAgeData(ageJSON) {
+  console.log(ageJSON);
+  
+}
+
+var sayHello = "hello";
 
 exports.sum = sum;
 exports.myTree = myTree;
+exports.helloWorld = helloWorld;
 exports.sayHello = sayHello;
+exports.convertAgeData = convertAgeData;
 /*  Not a pure module */

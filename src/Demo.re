@@ -18,4 +18,12 @@ let myTree =
 
 Js.log(sum(myTree));
 
-let sayHello = "Hello";
+let helloWorld = () => {
+    print_endline("Hello world!");
+  };
+
+let sayHello = "hello";
+
+let convertAgeData = (ageJSON) => {
+  print_endline(ageJSON);
+}
