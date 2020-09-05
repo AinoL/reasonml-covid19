@@ -4,4 +4,49 @@
 
 console.log("Hello, BuckleScript and Reason!");
 
+function sum(item) {
+  if (item) {
+    return (item._0 + sum(item._1) | 0) + sum(item._2) | 0;
+  } else {
+    return 0;
+  }
+}
+
+var myTree = /* Node */{
+  _0: 1,
+  _1: /* Node */{
+    _0: 2,
+    _1: /* Node */{
+      _0: 4,
+      _1: /* Leaf */0,
+      _2: /* Leaf */0
+    },
+    _2: /* Node */{
+      _0: 6,
+      _1: /* Leaf */0,
+      _2: /* Leaf */0
+    }
+  },
+  _2: /* Node */{
+    _0: 3,
+    _1: /* Node */{
+      _0: 5,
+      _1: /* Leaf */0,
+      _2: /* Leaf */0
+    },
+    _2: /* Node */{
+      _0: 7,
+      _1: /* Leaf */0,
+      _2: /* Leaf */0
+    }
+  }
+};
+
+console.log(sum(myTree));
+
+var sayHello = "Hello";
+
+exports.sum = sum;
+exports.myTree = myTree;
+exports.sayHello = sayHello;
 /*  Not a pure module */
