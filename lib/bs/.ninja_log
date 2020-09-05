@@ -1,0 +1,8 @@
+# ninja log v5
+# start_time end_time mtime command hash
+1	172	1599294622929372242	ReasonmlCovid19.cmi	b2fb1dcf6d95344c
+0	344	1599294623110341752	src/Demo.reast	b7347deba44a8cd8
+344	372	1599294623139249002	src/Demo.d	fd91ecfd82895a88
+373	407	1599294623174057106	src/Demo-ReasonmlCovid19.cmj	fb0cd4e0caccddd
+373	407	1599294623174057106	src/Demo-ReasonmlCovid19.cmi	fb0cd4e0caccddd
+373	407	1599294623174057106	/Users/ainoleppanen/Projektit/reasonml-covid19/src/Demo.bs.js	fb0cd4e0caccddd
